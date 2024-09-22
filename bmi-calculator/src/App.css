@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(19, 17, 17);
+    font-family: "Montserrat", sans-serif;
+}
+
+.App {
+    height: 100vh;
+}
+
+#container-box {
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+button {
+    width: 90%;
+    height: 45px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 40px auto;
+    cursor: pointer;
+    background: rgb(87, 48, 126);
+    border-radius: 10px;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+}
+
+button:active {
+    background: rgb(80, 31, 128);
+}
+
+.box div {
+    width: 90%;
+    text-align: center;
+}
+
+.box div p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(184, 147, 219);
+}
